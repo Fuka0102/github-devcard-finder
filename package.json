@@ -1,0 +1,33 @@
+{
+  "name": "github-devcard-finder",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Fuka0102/github-devcard-finder#readme",
+  "bugs": {
+    "url": "https://github.com/Fuka0102/github-devcard-finder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fuka0102/github-devcard-finder.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  }
+}
