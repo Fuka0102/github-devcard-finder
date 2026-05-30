@@ -4,7 +4,7 @@ export default function Form () {
     const [value, setValue] = useState('');
 
     const onChangeValue = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setValue(e.currentTarget.value);        
+        setValue(e.target.value);        
     }
 
     const onEnterDown = (e: React.KeyboardEvent<HTMLInputElement> ) => {
