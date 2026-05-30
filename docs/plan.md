@@ -4,6 +4,9 @@
 ### DOM雑実装
 [ ] テキスト入力欄DOM実装
 [ ] 検索ボタンDOM実装
+[ ] inputへ入力したテキストをonChangeで受け取りconsole表示
+[ ] 検索ボタンを押すと、入力したテキストをsubmit
+[ ] Enterキーを押すと、入力したテキストをsubmit
 
 ### API通信
 [ ] ボタンを押すと、github APIをfetchし、レスポンスを受け取る
