@@ -6,14 +6,20 @@ export default function Form () {
     const onChangeValue = (e: React.ChangeEvent<HTMLInputElement>) => {
         setValue(e.currentTarget.value);        
     }
-    
+
+    const onEnterDown = (e: React.KeyboardEvent<HTMLInputElement> ) => {
+        if (e.key === 'Enter') {
+            onSubmitSearch();
+        }
+    }
+
     const onSubmitSearch = () => {
         console.log(value);
     }
 
     return (
         <>
-            <input type="text" placeholder="input search word" onChange={onChangeValue} onKeyDown={onClickSearch}/>
+            <input type="text" placeholder="input search word" onChange={onChangeValue} onKeyDown={onEnterDown}/>
             <button onClick={onSubmitSearch}>search</button>
         </>
     );
