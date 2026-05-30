@@ -8,6 +8,8 @@
 [x] 検索ボタンを押すと、入力したテキストをsubmit(console表示)
 [x] Enterキーを押すと、入力したテキストをsubmit(console表示)
 
+
+## pr2
 ### API通信
 [ ] ボタンを押すと、github APIをfetchし、レスポンスを受け取る
 [ ] fetch関数は汎用的なものとし、型定義にinferを使用する 
